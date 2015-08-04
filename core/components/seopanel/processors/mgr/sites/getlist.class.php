@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Get a list of Items
+ * Get a list of Sitess
  */
-class seoPanelItemGetListProcessor extends modObjectGetListProcessor {
-	public $objectType = 'seoPanelItem';
-	public $classKey = 'seoPanelItem';
+class seoPanelSitesGetListProcessor extends modObjectGetListProcessor {
+	public $objectType = 'seoPanelSites';
+	public $classKey = 'seoPanelSites';
 	public $defaultSortField = 'id';
 	public $defaultSortDirection = 'DESC';
 	//public $permission = 'list';
@@ -59,7 +59,7 @@ class seoPanelItemGetListProcessor extends modObjectGetListProcessor {
 			'icon' => 'icon icon-edit',
 			'title' => $this->modx->lexicon('seopanel_item_update'),
 			//'multiple' => $this->modx->lexicon('seopanel_items_update'),
-			'action' => 'updateItem',
+			'action' => 'updateSites',
 			'button' => true,
 			'menu' => true,
 		);
@@ -70,7 +70,7 @@ class seoPanelItemGetListProcessor extends modObjectGetListProcessor {
 				'icon' => 'icon icon-power-off action-green',
 				'title' => $this->modx->lexicon('seopanel_item_enable'),
 				'multiple' => $this->modx->lexicon('seopanel_items_enable'),
-				'action' => 'enableItem',
+				'action' => 'enableSites',
 				'button' => true,
 				'menu' => true,
 			);
@@ -81,7 +81,7 @@ class seoPanelItemGetListProcessor extends modObjectGetListProcessor {
 				'icon' => 'icon icon-power-off action-gray',
 				'title' => $this->modx->lexicon('seopanel_item_disable'),
 				'multiple' => $this->modx->lexicon('seopanel_items_disable'),
-				'action' => 'disableItem',
+				'action' => 'disableSites',
 				'button' => true,
 				'menu' => true,
 			);
@@ -93,7 +93,7 @@ class seoPanelItemGetListProcessor extends modObjectGetListProcessor {
 			'icon' => 'icon icon-trash-o action-red',
 			'title' => $this->modx->lexicon('seopanel_item_remove'),
 			'multiple' => $this->modx->lexicon('seopanel_items_remove'),
-			'action' => 'removeItem',
+			'action' => 'removeSites',
 			'button' => true,
 			'menu' => true,
 		);
@@ -103,4 +103,4 @@ class seoPanelItemGetListProcessor extends modObjectGetListProcessor {
 
 }
 
-return 'seoPanelItemGetListProcessor';
+return 'seoPanelSitesGetListProcessor';

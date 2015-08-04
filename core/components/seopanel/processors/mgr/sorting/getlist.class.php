@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Get a list of Items
+ * Get a list of Sortings
  */
-class seoPanelItemGetListProcessor extends modObjectGetListProcessor {
-	public $objectType = 'seoPanelItem';
-	public $classKey = 'seoPanelItem';
+class seoPanelSortingGetListProcessor extends modObjectGetListProcessor {
+	public $objectType = 'seoPanelSorting';
+	public $classKey = 'seoPanelSorting';
 	public $defaultSortField = 'id';
 	public $defaultSortDirection = 'DESC';
 	//public $permission = 'list';
@@ -59,7 +59,7 @@ class seoPanelItemGetListProcessor extends modObjectGetListProcessor {
 			'icon' => 'icon icon-edit',
 			'title' => $this->modx->lexicon('seopanel_item_update'),
 			//'multiple' => $this->modx->lexicon('seopanel_items_update'),
-			'action' => 'updateItem',
+			'action' => 'updateSorting',
 			'button' => true,
 			'menu' => true,
 		);
@@ -70,7 +70,7 @@ class seoPanelItemGetListProcessor extends modObjectGetListProcessor {
 				'icon' => 'icon icon-power-off action-green',
 				'title' => $this->modx->lexicon('seopanel_item_enable'),
 				'multiple' => $this->modx->lexicon('seopanel_items_enable'),
-				'action' => 'enableItem',
+				'action' => 'enableSorting',
 				'button' => true,
 				'menu' => true,
 			);
@@ -81,7 +81,7 @@ class seoPanelItemGetListProcessor extends modObjectGetListProcessor {
 				'icon' => 'icon icon-power-off action-gray',
 				'title' => $this->modx->lexicon('seopanel_item_disable'),
 				'multiple' => $this->modx->lexicon('seopanel_items_disable'),
-				'action' => 'disableItem',
+				'action' => 'disableSorting',
 				'button' => true,
 				'menu' => true,
 			);
@@ -93,7 +93,7 @@ class seoPanelItemGetListProcessor extends modObjectGetListProcessor {
 			'icon' => 'icon icon-trash-o action-red',
 			'title' => $this->modx->lexicon('seopanel_item_remove'),
 			'multiple' => $this->modx->lexicon('seopanel_items_remove'),
-			'action' => 'removeItem',
+			'action' => 'removeSorting',
 			'button' => true,
 			'menu' => true,
 		);
@@ -103,4 +103,4 @@ class seoPanelItemGetListProcessor extends modObjectGetListProcessor {
 
 }
 
-return 'seoPanelItemGetListProcessor';
+return 'seoPanelSortingGetListProcessor';

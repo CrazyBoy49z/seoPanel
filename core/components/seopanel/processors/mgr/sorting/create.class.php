@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Create an Item
+ * Create an Sorting
  */
-class seoPanelItemCreateProcessor extends modObjectCreateProcessor {
-	public $objectType = 'seoPanelItem';
-	public $classKey = 'seoPanelItem';
+class seoPanelSortingCreateProcessor extends modObjectCreateProcessor {
+	public $objectType = 'seoPanelSorting';
+	public $classKey = 'seoPanelSorting';
 	public $languageTopics = array('seopanel');
 	//public $permission = 'create';
 
@@ -27,4 +27,4 @@ class seoPanelItemCreateProcessor extends modObjectCreateProcessor {
 
 }
 
-return 'seoPanelItemCreateProcessor';
+return 'seoPanelSortingCreateProcessor';

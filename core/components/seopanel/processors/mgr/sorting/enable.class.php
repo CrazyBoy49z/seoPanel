@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Enable an Item
+ * Enable an Sorting
  */
-class seoPanelItemEnableProcessor extends modObjectProcessor {
-	public $objectType = 'seoPanelItem';
-	public $classKey = 'seoPanelItem';
+class seoPanelSortingEnableProcessor extends modObjectProcessor {
+	public $objectType = 'seoPanelSorting';
+	public $classKey = 'seoPanelSorting';
 	public $languageTopics = array('seopanel');
 	//public $permission = 'save';
 
@@ -24,7 +24,7 @@ class seoPanelItemEnableProcessor extends modObjectProcessor {
 		}
 
 		foreach ($ids as $id) {
-			/** @var seoPanelItem $object */
+			/** @var seoPanelSorting $object */
 			if (!$object = $this->modx->getObject($this->classKey, $id)) {
 				return $this->failure($this->modx->lexicon('seopanel_item_err_nf'));
 			}
@@ -38,4 +38,4 @@ class seoPanelItemEnableProcessor extends modObjectProcessor {
 
 }
 
-return 'seoPanelItemEnableProcessor';
+return 'seoPanelSortingEnableProcessor';

@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Remove an Items
+ * Remove an Sitess
  */
-class seoPanelItemRemoveProcessor extends modObjectProcessor {
-	public $objectType = 'seoPanelItem';
-	public $classKey = 'seoPanelItem';
+class seoPanelSitesRemoveProcessor extends modObjectProcessor {
+	public $objectType = 'seoPanelSites';
+	public $classKey = 'seoPanelSites';
 	public $languageTopics = array('seopanel');
 	//public $permission = 'remove';
 
@@ -24,7 +24,7 @@ class seoPanelItemRemoveProcessor extends modObjectProcessor {
 		}
 
 		foreach ($ids as $id) {
-			/** @var seoPanelItem $object */
+			/** @var seoPanelSites $object */
 			if (!$object = $this->modx->getObject($this->classKey, $id)) {
 				return $this->failure($this->modx->lexicon('seopanel_item_err_nf'));
 			}
@@ -37,4 +37,4 @@ class seoPanelItemRemoveProcessor extends modObjectProcessor {
 
 }
 
-return 'seoPanelItemRemoveProcessor';
+return 'seoPanelSitesRemoveProcessor';

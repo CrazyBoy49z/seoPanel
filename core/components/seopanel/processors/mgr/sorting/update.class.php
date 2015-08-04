@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Update an Item
+ * Update an Sorting
  */
-class seoPanelItemUpdateProcessor extends modObjectUpdateProcessor {
-	public $objectType = 'seoPanelItem';
-	public $classKey = 'seoPanelItem';
+class seoPanelSortingUpdateProcessor extends modObjectUpdateProcessor {
+	public $objectType = 'seoPanelSorting';
+	public $classKey = 'seoPanelSorting';
 	public $languageTopics = array('seopanel');
 	//public $permission = 'save';
 
@@ -46,4 +46,4 @@ class seoPanelItemUpdateProcessor extends modObjectUpdateProcessor {
 	}
 }
 
-return 'seoPanelItemUpdateProcessor';
+return 'seoPanelSortingUpdateProcessor';

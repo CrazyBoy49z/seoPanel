@@ -10,7 +10,7 @@ seoPanel.grid.Items = function (config) {
 		tbar: this.getTopBar(config),
 		sm: new Ext.grid.CheckboxSelectionModel(),
 		baseParams: {
-			action: 'mgr/item/getlist'
+			action: 'mgr/sorting/getlist'
 		},
 		listeners: {
 			rowDblClick: function (grid, rowIndex, e) {

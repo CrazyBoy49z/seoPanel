@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Get an Item
+ * Get an Sorting
  */
-class seoPanelItemGetProcessor extends modObjectGetProcessor {
-	public $objectType = 'seoPanelItem';
-	public $classKey = 'seoPanelItem';
+class seoPanelSortingGetProcessor extends modObjectGetProcessor {
+	public $objectType = 'seoPanelSorting';
+	public $classKey = 'seoPanelSorting';
 	public $languageTopics = array('seopanel:default');
 	//public $permission = 'view';
 
@@ -26,4 +26,4 @@ class seoPanelItemGetProcessor extends modObjectGetProcessor {
 
 }
 
-return 'seoPanelItemGetProcessor';
+return 'seoPanelSortingGetProcessor';
