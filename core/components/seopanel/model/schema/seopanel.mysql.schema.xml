@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="seopanel" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" version="1.1">
+	<object class="seoPanelSites" table="seopanel_sites" extends="xPDOSimpleObject">
+		<field key="domain" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="tic" dbtype="int" precision="10" phptype="integer" null="false" />
+		<field key="pr" dbtype="int" precision="2" phptype="integer" null="false" />
+		<field key="yaca" dbtype="tinyint" precision="4" phptype="integer" null="true" default="0" />
+		<field key="dmoz" dbtype="tinyint" precision="4" phptype="integer" null="true" default="0" />
+		<field key="yaindex" dbtype="int" precision="100" phptype="integer" null="false" />
+		<field key="yaindex_up" dbtype="int" precision="100" phptype="integer" null="false" />
+		<field key="gooindex" dbtype="int" precision="100" phptype="integer" null="false" />
+		<field key="gooindex_up" dbtype="int" precision="100" phptype="integer" null="false" />
+		<field key="liveinternet" dbtype="int" precision="10" phptype="integer" null="false" />
+		<field key="domainend" dbtype="int" precision="10" phptype="integer" null="false" />
+		<field key="update" dbtype="timestamp" phptype="timestamp" null="false" default="CURRENT_TIMESTAMP"  extra="on update current_timestamp" />
+		<field key="sorting_id" dbtype="int" precision="1" phptype="integer" null="false" />
+		<field key="active" dbtype="tinyint" precision="1" phptype="integer" null="true" default="1" />
+		<composite alias="seoPanelSorting" class="seoPanelSorting" local="sorting_id" foreign="id" cardinality="many" owner="local" />
+		<index alias="active" name="active" primary="false" unique="false" type="BTREE">
+			<column key="active" length="" collation="A" null="false"/>
+		</index>
+	</object>
+	<object class="seoPanelSorting" table="seopanel_sorting" extends="xPDOSimpleObject">
+		<field key="name" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="color" dbtype="varchar" precision="7" phptype="string" null="false" />
+		<field key="alias" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="active" dbtype="tinyint" precision="1" phptype="integer" null="true" default="1" />
+
+		<index alias="id" name="id" primary="false" unique="false" type="BTREE" >
+			<column key="id" length="" collation="A" null="false" />
+		</index>
+		<index alias="active" name="active" primary="false" unique="false" type="BTREE">
+			<column key="active" length="" collation="A" null="false"/>
+		</index>
+		<aggregate alias="seoPanelSites" class="seoPanelSites" local="id" foreign="sorting_id" cardinality="one" owner="foreign" />
+	</object>
+</model>
