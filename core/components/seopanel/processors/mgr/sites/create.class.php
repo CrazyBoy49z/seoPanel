@@ -4,11 +4,9 @@
  * Create an Sites
  */
 class seoPanelSitesCreateProcessor extends modObjectCreateProcessor {
-	public $objectType = 'seoPanelSites';
+	public $objectType = 'object';
 	public $classKey = 'seoPanelSites';
 	public $languageTopics = array('seopanel');
-	//public $permission = 'create';
-
 
 	/**
 	 * @return bool
@@ -21,6 +19,10 @@ class seoPanelSitesCreateProcessor extends modObjectCreateProcessor {
 		elseif ($this->modx->getCount($this->classKey, array('name' => $name))) {
 			$this->modx->error->addField('domain', $this->modx->lexicon('seopanel_sites_err_ae'));
 		}
+
+        if (!$this->modx->user->id) return 'Вам нужно авторизоваться';
+        $this->setProperty('created_by', $this->modx->user->id);
+        return true;
 
 		return parent::beforeSet();
 	}

@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437eeeda-5b51-4620-8591-651ee8a428e5" name="Default" comment="">
-      <change type="DELETED" beforePath="B:\Dropbox\Мои файлы\Разработка\seoPanel\assets\components\seopanel\js\mgr\widgets\items.grid.js" afterPath="" />
-      <change type="DELETED" beforePath="B:\Dropbox\Мои файлы\Разработка\seoPanel\assets\components\seopanel\js\mgr\widgets\items.windows.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/components/seopanel/connector.php" afterPath="$PROJECT_DIR$/assets/components/seopanel/connector.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/create.class.php" afterPath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/create.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/lexicon/en/default.inc.php" afterPath="$PROJECT_DIR$/core/components/seopanel/lexicon/en/default.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/lexicon/ru/default.inc.php" afterPath="$PROJECT_DIR$/core/components/seopanel/lexicon/ru/default.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/disable.class.php" afterPath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/disable.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/enable.class.php" afterPath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/enable.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/get.class.php" afterPath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/get.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/getlist.class.php" afterPath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/getlist.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/controllers/home.class.php" afterPath="$PROJECT_DIR$/core/components/seopanel/controllers/home.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/home.panel.js" afterPath="$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/home.panel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/index.class.php" afterPath="$PROJECT_DIR$/core/components/seopanel/index.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/lexicon/en/properties.inc.php" afterPath="$PROJECT_DIR$/core/components/seopanel/lexicon/en/properties.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/lexicon/ru/properties.inc.php" afterPath="$PROJECT_DIR$/core/components/seopanel/lexicon/ru/properties.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/remove.class.php" afterPath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/remove.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_build/resolvers/resolve.tables.php" afterPath="$PROJECT_DIR$/_build/resolvers/resolve.tables.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/model/schema/seopanel.mysql.schema.xml" afterPath="$PROJECT_DIR$/core/components/seopanel/model/schema/seopanel.mysql.schema.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/elements/snippets/snippet.seopanel.php" afterPath="$PROJECT_DIR$/core/components/seopanel/elements/snippets/snippet.seopanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/lexicon/ru/setting.inc.php" afterPath="$PROJECT_DIR$/core/components/seopanel/lexicon/ru/setting.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/sites.grid.js" afterPath="$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/sites.grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/sites.windows.js" afterPath="$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/sites.windows.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/update.class.php" afterPath="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/update.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -46,94 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/create.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="102" max-vertical-offset="595">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/update.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.23077" vertical-offset="15" max-vertical-offset="935">
-              <caret line="41" column="87" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="87" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="disable.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/disable.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846" vertical-offset="408" max-vertical-offset="799">
-              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="enable.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/enable.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846" vertical-offset="408" max-vertical-offset="799">
-              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/get.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.423077" vertical-offset="219" max-vertical-offset="578">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getlist.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/getlist.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47910863" vertical-offset="1664" max-vertical-offset="2312">
-              <caret line="108" column="66" selection-start-line="108" selection-start-column="66" selection-end-line="108" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sites.grid.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/sites.grid.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.206897" vertical-offset="685" max-vertical-offset="6171">
-              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-              <folding>
-                <marker date="1438791108958" expanded="true" signature="10684:10693" placeholder="..." />
-                <marker date="1438791108958" expanded="true" signature="10746:10757" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remove.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/remove.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.461538" vertical-offset="100" max-vertical-offset="765">
-              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="default.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/components/seopanel/lexicon/ru/default.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="459" max-vertical-offset="850">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state vertical-scroll-proportion="-9.884615" vertical-offset="525" max-vertical-offset="884">
+              <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -142,8 +52,88 @@
       <file leaf-file-name="setting.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/components/seopanel/lexicon/ru/setting.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/create.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28412256" vertical-offset="0" max-vertical-offset="629">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seopanel.mysql.schema.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/components/seopanel/model/schema/seopanel.mysql.schema.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/get.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="51" max-vertical-offset="578">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enable.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/enable.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="799">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="disable.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/disable.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="799">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/update.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="952">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="remove.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/remove.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="765">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getlist.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/getlist.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="2312">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -159,19 +149,21 @@
       <list>
         <option value="$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/items.grid.js" />
         <option value="$PROJECT_DIR$/core/components/seopanel/controllers/home.class.php" />
-        <option value="$PROJECT_DIR$/core/components/seopanel/index.class.php" />
         <option value="$PROJECT_DIR$/assets/components/seopanel/connector.php" />
-        <option value="$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/sites.windows.js" />
         <option value="$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/home.panel.js" />
         <option value="$PROJECT_DIR$/core/components/seopanel/lexicon/ru/properties.inc.php" />
-        <option value="$PROJECT_DIR$/core/components/seopanel/lexicon/ru/default.inc.php" />
-        <option value="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/create.class.php" />
-        <option value="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/update.class.php" />
-        <option value="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/disable.class.php" />
-        <option value="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/enable.class.php" />
-        <option value="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/remove.class.php" />
+        <option value="$PROJECT_DIR$/core/components/seopanel/index.class.php" />
         <option value="$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/sites.grid.js" />
+        <option value="$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/sites.windows.js" />
+        <option value="$PROJECT_DIR$/core/components/seopanel/lexicon/ru/default.inc.php" />
+        <option value="$PROJECT_DIR$/core/components/seopanel/lexicon/ru/setting.inc.php" />
+        <option value="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/update.class.php" />
+        <option value="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/remove.class.php" />
         <option value="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/getlist.class.php" />
+        <option value="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/get.class.php" />
+        <option value="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/enable.class.php" />
+        <option value="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/disable.class.php" />
+        <option value="$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/create.class.php" />
       </list>
     </option>
   </component>
@@ -340,6 +332,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seopanel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seoPanel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seoPanel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seopanel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schema" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -710,7 +736,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1122">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           <folding>
-            <marker date="1438786325815" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438792364997" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -744,8 +770,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6069">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1438791108958" expanded="true" signature="10684:10693" placeholder="..." />
-            <marker date="1438791108958" expanded="true" signature="10746:10757" placeholder="..." />
+            <marker date="1438793247050" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438793247050" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -774,7 +800,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1105">
           <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="54" />
           <folding>
-            <marker date="1438786325815" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438792364997" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -834,7 +860,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1105">
           <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="54" />
           <folding>
-            <marker date="1438786325815" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438792364997" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -850,13 +876,6 @@
     <entry file="file://$PROJECT_DIR$/core/components/seopanel/model/seopanel/seopanelsorting.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="384">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/components/seopanel/model/schema/seopanel.mysql.schema.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -894,21 +913,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/components/seopanel/index.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1122">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding>
-            <marker date="1438786325815" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/components/seopanel/connector.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="425">
           <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/components/seopanel/index.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="187" max-vertical-offset="1139">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+          <folding>
+            <marker date="1438792364997" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -928,19 +947,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/sites.windows.js">
+    <entry file="file://$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/home.panel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2947" max-vertical-offset="5678">
-          <caret line="201" column="26" selection-start-line="201" selection-start-column="26" selection-end-line="201" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="748">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/home.panel.js">
+    <entry file="file://$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/sites.windows.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="5089" max-vertical-offset="5542">
+          <caret line="320" column="69" selection-start-line="320" selection-start-column="69" selection-end-line="320" selection-end-column="69" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/sites.grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="72.86207" vertical-offset="5836" max-vertical-offset="6205">
+          <caret line="219" column="22" selection-start-line="219" selection-start-column="22" selection-end-line="219" selection-end-column="26" />
+          <folding>
+            <marker date="1438793247050" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438793247050" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -952,85 +982,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/components/seopanel/lexicon/ru/setting.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="385">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/components/seopanel/lexicon/ru/default.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="459" max-vertical-offset="850">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state vertical-scroll-proportion="-9.884615" vertical-offset="525" max-vertical-offset="884">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/create.class.php">
+    <entry file="file://$PROJECT_DIR$/core/components/seopanel/lexicon/ru/setting.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="102" max-vertical-offset="595">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/components/seopanel/model/schema/seopanel.mysql.schema.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/update.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.23077" vertical-offset="15" max-vertical-offset="935">
-          <caret line="41" column="87" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/disable.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="408" max-vertical-offset="799">
-          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/enable.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="408" max-vertical-offset="799">
-          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/get.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.423077" vertical-offset="219" max-vertical-offset="578">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="952">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/remove.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.461538" vertical-offset="100" max-vertical-offset="765">
-          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="765">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/components/seopanel/js/mgr/widgets/sites.grid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.206897" vertical-offset="685" max-vertical-offset="6171">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-          <folding>
-            <marker date="1438791108958" expanded="true" signature="10684:10693" placeholder="..." />
-            <marker date="1438791108958" expanded="true" signature="10746:10757" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/getlist.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47910863" vertical-offset="1664" max-vertical-offset="2312">
-          <caret line="108" column="66" selection-start-line="108" selection-start-column="66" selection-end-line="108" selection-end-column="66" />
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="2312">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/get.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="51" max-vertical-offset="578">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/enable.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="799">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/disable.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="799">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/components/seopanel/processors/mgr/sites/create.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28412256" vertical-offset="0" max-vertical-offset="629">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
       </provider>

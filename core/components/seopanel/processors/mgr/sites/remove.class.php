@@ -4,7 +4,7 @@
  * Remove an Sitess
  */
 class seoPanelSitesRemoveProcessor extends modObjectProcessor {
-	public $objectType = 'seoPanelSites';
+	public $objectType = 'object';
 	public $classKey = 'seoPanelSites';
 	public $languageTopics = array('seopanel');
 	//public $permission = 'remove';

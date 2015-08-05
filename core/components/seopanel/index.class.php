@@ -18,6 +18,7 @@ abstract class seoPanelMainController extends modExtraManagerController {
 
 		$this->seoPanel = new seoPanel($this->modx);
 		$this->addCss($this->seoPanel->config['cssUrl'] . 'mgr/main.css');
+        $this->addCss($this->seoPanel->config['cssUrl'] . 'mgr/css/font-awesome.min.css');
 		$this->addJavascript($this->seoPanel->config['jsUrl'] . 'mgr/seopanel.js');
 		$this->addHtml('
 		<script type="text/javascript">

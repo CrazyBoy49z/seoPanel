@@ -213,11 +213,13 @@ Ext.extend(seoPanel.grid.seoPanelSites, MODx.grid.Grid, {
             dataIndex: 'yaca',
             sortable: true,
             width: 70,
+            renderer: this.renderBoolean
         }, {
             header: _('seopanel_sites_dmoz'),
             dataIndex: 'dmoz',
             sortable: true,
             width: 70,
+            renderer: this.renderBoolean
         }, {
             header: _('seopanel_sites_yaindex'),
             dataIndex: 'yaindex',

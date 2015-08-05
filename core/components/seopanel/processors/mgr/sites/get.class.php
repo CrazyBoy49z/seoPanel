@@ -4,7 +4,7 @@
  * Get an Sites
  */
 class seoPanelSitesGetProcessor extends modObjectGetProcessor {
-	public $objectType = 'seoPanelSites';
+	public $objectType = 'object';
 	public $classKey = 'seoPanelSites';
 	public $languageTopics = array('seopanel:default');
 	//public $permission = 'view';

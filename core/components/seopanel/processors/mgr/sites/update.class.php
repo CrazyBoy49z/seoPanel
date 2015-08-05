@@ -4,7 +4,7 @@
  * Update an Sites
  */
 class seoPanelSitesUpdateProcessor extends modObjectUpdateProcessor {
-	public $objectType = 'seoPanelSites';
+	public $objectType = 'object';
 	public $classKey = 'seoPanelSites';
 	public $languageTopics = array('seopanel');
 	//public $permission = 'save';
@@ -34,7 +34,8 @@ class seoPanelSitesUpdateProcessor extends modObjectUpdateProcessor {
 		if (empty($id)) {
 			return $this->modx->lexicon('seopanel_sites_err_ns');
 		}
-
+        $this->setProperty('yaca',  $this->getProperty('yaca') == 'true' ? 1 : 0);
+        $this->setProperty('dmoz',  $this->getProperty('dmoz') == 'true' ? 1 : 0);
 		if (empty($domain)) {
 			$this->modx->error->addField('domain', $this->modx->lexicon('seopanel_sites_err_name'));
 		}

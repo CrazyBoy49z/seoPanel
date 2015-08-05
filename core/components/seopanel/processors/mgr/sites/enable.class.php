@@ -4,7 +4,7 @@
  * Enable an Sites
  */
 class seoPanelSitesEnableProcessor extends modObjectProcessor {
-	public $objectType = 'seoPanelSites';
+	public $objectType = 'object';
 	public $classKey = 'seoPanelSites';
 	public $languageTopics = array('seopanel');
 	//public $permission = 'save';

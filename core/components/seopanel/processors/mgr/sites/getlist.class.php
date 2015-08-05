@@ -4,7 +4,7 @@
  * Get a list of Sitess
  */
 class seoPanelSitesGetListProcessor extends modObjectGetListProcessor {
-	public $objectType = 'seoPanelSites';
+	public $objectType = 'object';
 	public $classKey = 'seoPanelSites';
 	public $defaultSortField = 'id';
 	public $defaultSortDirection = 'DESC';
@@ -104,9 +104,9 @@ class seoPanelSitesGetListProcessor extends modObjectGetListProcessor {
         // Update SEO
         $array['actions'][] = array(
             'cls' => '',
-            'icon' => 'icon icon-trash-o action-red',
-            'title' => $this->modx->lexicon('seopanel_site_seo'),
-            'multiple' => $this->modx->lexicon('seopanel_sites_seo'),
+            'icon' => 'icon fa fa-chrome',
+            'title' => $this->modx->lexicon('seopanel_site_updateseo'),
+            'multiple' => $this->modx->lexicon('seopanel_sites_updateseo'),
             'action' => 'updateSitesSEO',
             'button' => true,
             'menu' => true,
