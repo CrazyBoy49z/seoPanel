@@ -15,7 +15,7 @@
 		<field key="update" dbtype="timestamp" phptype="timestamp" null="false" default="CURRENT_TIMESTAMP"  extra="on update current_timestamp" />
 		<field key="sorting_id" dbtype="int" precision="1" phptype="integer" null="false" />
 		<field key="active" dbtype="tinyint" precision="1" phptype="integer" null="true" default="1" />
-		<composite alias="seoPanelSorting" class="seoPanelSorting" local="sorting_id" foreign="id" cardinality="many" owner="local" />
+		<composites alias="seoPanelSorting" class="seoPanelSorting" local="sorting_id" foreign="id" cardinality="many" owner="local" />
 		<index alias="active" name="active" primary="false" unique="false" type="BTREE">
 			<column key="active" length="" collation="A" null="false"/>
 		</index>

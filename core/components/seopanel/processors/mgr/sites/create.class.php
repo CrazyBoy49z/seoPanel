@@ -14,12 +14,12 @@ class seoPanelSitesCreateProcessor extends modObjectCreateProcessor {
 	 * @return bool
 	 */
 	public function beforeSet() {
-		$name = trim($this->getProperty('name'));
-		if (empty($name)) {
-			$this->modx->error->addField('name', $this->modx->lexicon('seopanel_item_err_name'));
+		$domain = trim($this->getProperty('domain'));
+		if (empty($domain)) {
+			$this->modx->error->addField('domain', $this->modx->lexicon('seopanel_sites_err_domain'));
 		}
 		elseif ($this->modx->getCount($this->classKey, array('name' => $name))) {
-			$this->modx->error->addField('name', $this->modx->lexicon('seopanel_item_err_ae'));
+			$this->modx->error->addField('domain', $this->modx->lexicon('seopanel_sites_err_ae'));
 		}
 
 		return parent::beforeSet();

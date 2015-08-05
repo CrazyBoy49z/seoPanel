@@ -3,12 +3,12 @@ seoPanel.panel.Home = function (config) {
 	Ext.apply(config, {
 		baseCls: 'modx-formpanel',
 		layout: 'anchor',
-		/*
+
 		 stateful: true,
 		 stateId: 'seopanel-panel-home',
 		 stateEvents: ['tabchange'],
 		 getState:function() {return {activeTab:this.items.indexOf(this.getActiveTab())};},
-		 */
+
 		hideMode: 'offsets',
 		items: [{
 			html: '<h2>' + _('seopanel') + '</h2>',
@@ -20,13 +20,13 @@ seoPanel.panel.Home = function (config) {
 			border: true,
 			hideMode: 'offsets',
 			items: [{
-				title: _('seopanel_items'),
+				title: _('seopanel_sites'),
 				layout: 'anchor',
 				items: [{
 					html: _('seopanel_intro_msg'),
 					cls: 'panel-desc',
 				}, {
-					xtype: 'seopanel-grid-items',
+					xtype: 'seopanel-grid-sites',
 					cls: 'main-wrapper',
 				}]
 			}]

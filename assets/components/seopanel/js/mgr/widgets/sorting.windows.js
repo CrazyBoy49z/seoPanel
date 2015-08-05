@@ -1,4 +1,4 @@
-seoPanel.window.CreateItem = function (config) {
+seoPanel.window.CreateSites = function (config) {
 	config = config || {};
 	if (!config.id) {
 		config.id = 'seopanel-item-window-create';
@@ -16,9 +16,9 @@ seoPanel.window.CreateItem = function (config) {
 			}, scope: this
 		}]
 	});
-	seoPanel.window.CreateItem.superclass.constructor.call(this, config);
+	seoPanel.window.CreateSites.superclass.constructor.call(this, config);
 };
-Ext.extend(seoPanel.window.CreateItem, MODx.Window, {
+Ext.extend(seoPanel.window.CreateSites, MODx.Window, {
 
 	getFields: function (config) {
 		return [{
@@ -45,10 +45,10 @@ Ext.extend(seoPanel.window.CreateItem, MODx.Window, {
 	}
 
 });
-Ext.reg('seopanel-item-window-create', seoPanel.window.CreateItem);
+Ext.reg('seopanel-item-window-create', seoPanel.window.CreateSites);
 
 
-seoPanel.window.UpdateItem = function (config) {
+seoPanel.window.UpdateSites = function (config) {
 	config = config || {};
 	if (!config.id) {
 		config.id = 'seopanel-item-window-update';
@@ -66,9 +66,9 @@ seoPanel.window.UpdateItem = function (config) {
 			}, scope: this
 		}]
 	});
-	seoPanel.window.UpdateItem.superclass.constructor.call(this, config);
+	seoPanel.window.UpdateSites.superclass.constructor.call(this, config);
 };
-Ext.extend(seoPanel.window.UpdateItem, MODx.Window, {
+Ext.extend(seoPanel.window.UpdateSites, MODx.Window, {
 
 	getFields: function (config) {
 		return [{
@@ -98,4 +98,4 @@ Ext.extend(seoPanel.window.UpdateItem, MODx.Window, {
 	}
 
 });
-Ext.reg('seopanel-item-window-update', seoPanel.window.UpdateItem);
+Ext.reg('seopanel-item-window-update', seoPanel.window.UpdateSites);

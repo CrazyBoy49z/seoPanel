@@ -1,5 +1,6 @@
 <?php
-
+ini_set('display_errors', 1);
+ini_set('error_reporting', -1);
 /**
  * The home manager controller for seoPanel.
  *
@@ -31,8 +32,9 @@ class seoPanelHomeManagerController extends seoPanelMainController {
 		$this->addCss($this->seoPanel->config['cssUrl'] . 'mgr/main.css');
 		$this->addCss($this->seoPanel->config['cssUrl'] . 'mgr/bootstrap.buttons.css');
 		$this->addJavascript($this->seoPanel->config['jsUrl'] . 'mgr/misc/utils.js');
-		$this->addJavascript($this->seoPanel->config['jsUrl'] . 'mgr/widgets/items.grid.js');
-		$this->addJavascript($this->seoPanel->config['jsUrl'] . 'mgr/widgets/items.windows.js');
+		$this->addJavascript($this->seoPanel->config['jsUrl'] . 'mgr/widgets/sites.grid.js');
+		$this->addJavascript($this->seoPanel->config['jsUrl'] . 'mgr/widgets/sites.windows.js');
+        $this->addJavascript($this->seoPanel->config['jsUrl'] . 'mgr/widgets/sorting.windows.js');
 		$this->addJavascript($this->seoPanel->config['jsUrl'] . 'mgr/widgets/home.panel.js');
 		$this->addJavascript($this->seoPanel->config['jsUrl'] . 'mgr/sections/home.js');
 		$this->addHtml('<script type="text/javascript">

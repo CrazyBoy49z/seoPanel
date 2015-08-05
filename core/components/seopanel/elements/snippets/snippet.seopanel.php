@@ -6,7 +6,7 @@ if (!$seoPanel = $modx->getService('seopanel', 'seoPanel', $modx->getOption('seo
 }
 
 // Do your snippet code here. This demo grabs 5 items from our custom table.
-$tpl = $modx->getOption('tpl', $scriptProperties, 'Item');
+$tpl = $modx->getOption('tpl', $scriptProperties, 'Sites');
 $sortby = $modx->getOption('sortby', $scriptProperties, 'name');
 $sortdir = $modx->getOption('sortbir', $scriptProperties, 'ASC');
 $limit = $modx->getOption('limit', $scriptProperties, 5);
@@ -14,14 +14,14 @@ $outputSeparator = $modx->getOption('outputSeparator', $scriptProperties, "\n");
 $toPlaceholder = $modx->getOption('toPlaceholder', $scriptProperties, false);
 
 // Build query
-$c = $modx->newQuery('seoPanelItem');
+$c = $modx->newQuery('seoPanelSites');
 $c->sortby($sortby, $sortdir);
 $c->limit($limit);
-$items = $modx->getIterator('seoPanelItem', $c);
+$items = $modx->getIterator('seoPanelSites', $c);
 
 // Iterate through items
 $list = array();
-/** @var seoPanelItem $item */
+/** @var seoPanelSites $item */
 foreach ($items as $item) {
 	$list[] = $modx->getChunk($tpl, $item->toArray());
 }

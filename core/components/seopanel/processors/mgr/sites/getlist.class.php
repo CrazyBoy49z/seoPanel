@@ -35,10 +35,24 @@ class seoPanelSitesGetListProcessor extends modObjectGetListProcessor {
 		$query = trim($this->getProperty('query'));
 		if ($query) {
 			$c->where(array(
-				'name:LIKE' => "%{$query}%",
-				'OR:description:LIKE' => "%{$query}%",
+                'domain:LIKE' => "%{$query}%",
+                'OR:tic:LIKE' => "%{$query}%",
+                'OR:pr:LIKE' => "%{$query}%",
+                'OR:yaca:LIKE' => "%{$query}%",
+                'OR:dmoz:LIKE' => "%{$query}%",
+                'OR:yaindex:LIKE' => "%{$query}%",
+                'OR:yaindex_up:LIKE' => "%{$query}%",
+                'OR:gooindex:LIKE' => "%{$query}%",
+                'OR:gooindex_up:LIKE' => "%{$query}%",
+                'OR:liveinternet:LIKE' => "%{$query}%",
+                'OR:domainend:LIKE' => "%{$query}%",
+                'OR:update:LIKE' => "%{$query}%",
+                'OR:sorting_id:LIKE' => "%{$query}%",
 			));
 		}
+        if ($this->getProperty('combo')) {
+            $c->where(array('active' => 1));
+        }
 
 		return $c;
 	}
@@ -57,7 +71,7 @@ class seoPanelSitesGetListProcessor extends modObjectGetListProcessor {
 		$array['actions'][] = array(
 			'cls' => '',
 			'icon' => 'icon icon-edit',
-			'title' => $this->modx->lexicon('seopanel_item_update'),
+			'title' => $this->modx->lexicon('seopanel_sites_update'),
 			//'multiple' => $this->modx->lexicon('seopanel_items_update'),
 			'action' => 'updateSites',
 			'button' => true,
@@ -68,8 +82,8 @@ class seoPanelSitesGetListProcessor extends modObjectGetListProcessor {
 			$array['actions'][] = array(
 				'cls' => '',
 				'icon' => 'icon icon-power-off action-green',
-				'title' => $this->modx->lexicon('seopanel_item_enable'),
-				'multiple' => $this->modx->lexicon('seopanel_items_enable'),
+				'title' => $this->modx->lexicon('seopanel_site_enable'),
+				'multiple' => $this->modx->lexicon('seopanel_sites_enable'),
 				'action' => 'enableSites',
 				'button' => true,
 				'menu' => true,
@@ -79,20 +93,31 @@ class seoPanelSitesGetListProcessor extends modObjectGetListProcessor {
 			$array['actions'][] = array(
 				'cls' => '',
 				'icon' => 'icon icon-power-off action-gray',
-				'title' => $this->modx->lexicon('seopanel_item_disable'),
-				'multiple' => $this->modx->lexicon('seopanel_items_disable'),
+				'title' => $this->modx->lexicon('seopanel_site_disable'),
+				'multiple' => $this->modx->lexicon('seopanel_sites_disable'),
 				'action' => 'disableSites',
 				'button' => true,
 				'menu' => true,
 			);
 		}
 
+        // Update SEO
+        $array['actions'][] = array(
+            'cls' => '',
+            'icon' => 'icon icon-trash-o action-red',
+            'title' => $this->modx->lexicon('seopanel_site_seo'),
+            'multiple' => $this->modx->lexicon('seopanel_sites_seo'),
+            'action' => 'updateSitesSEO',
+            'button' => true,
+            'menu' => true,
+        );
+
 		// Remove
 		$array['actions'][] = array(
 			'cls' => '',
 			'icon' => 'icon icon-trash-o action-red',
-			'title' => $this->modx->lexicon('seopanel_item_remove'),
-			'multiple' => $this->modx->lexicon('seopanel_items_remove'),
+			'title' => $this->modx->lexicon('seopanel_site_remove'),
+			'multiple' => $this->modx->lexicon('seopanel_sites_remove'),
 			'action' => 'removeSites',
 			'button' => true,
 			'menu' => true,

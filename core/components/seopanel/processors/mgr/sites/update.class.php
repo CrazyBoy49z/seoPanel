@@ -30,16 +30,16 @@ class seoPanelSitesUpdateProcessor extends modObjectUpdateProcessor {
 	 */
 	public function beforeSet() {
 		$id = (int)$this->getProperty('id');
-		$name = trim($this->getProperty('name'));
+		$domain = trim($this->getProperty('domain'));
 		if (empty($id)) {
-			return $this->modx->lexicon('seopanel_item_err_ns');
+			return $this->modx->lexicon('seopanel_sites_err_ns');
 		}
 
-		if (empty($name)) {
-			$this->modx->error->addField('name', $this->modx->lexicon('seopanel_item_err_name'));
+		if (empty($domain)) {
+			$this->modx->error->addField('domain', $this->modx->lexicon('seopanel_sites_err_name'));
 		}
-		elseif ($this->modx->getCount($this->classKey, array('name' => $name, 'id:!=' => $id))) {
-			$this->modx->error->addField('name', $this->modx->lexicon('seopanel_item_err_ae'));
+		elseif ($this->modx->getCount($this->classKey, array('domain' => $domain, 'id:!=' => $id))) {
+			$this->modx->error->addField('domain', $this->modx->lexicon('seopanel_sites_err_ae'));
 		}
 
 		return parent::beforeSet();
